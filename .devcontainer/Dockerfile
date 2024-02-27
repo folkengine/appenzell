@@ -3,6 +3,7 @@ FROM mcr.microsoft.com/devcontainers/cpp:dev-debian
 RUN apt-get update \
   && apt-get install --no-install-recommends -y \
     # compiler tools
+    clang-format \
     clang-tidy \
     clangd \
     ccache \
