@@ -8,9 +8,9 @@ add_executable(CPMPlaybook main.cpp)
 
 # ---- Dependencies ----
 include(cmake/CPM.cmake)
-# CPMAddPackage("gh:nlohmann/json@3.11.3")
+CPMAddPackage("gh:nlohmann/json@3.11.3")
 # CPMAddPackage("gh:EVerest/everest-cmake@0.1.0")
-CPMAddPackage("gh:US-JOET/libocpp#folkengine/add_1.6_validate_and_add_profile_tests")
+CPMAddPackage("gh:US-JOET/libocpp#folkengine/gtest_fetch_content")
 
 # ---- Link Dependencies ----
 target_compile_features(CPMPlaybook PRIVATE cxx_std_17)
