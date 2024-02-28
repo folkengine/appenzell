@@ -18,7 +18,7 @@ Includes:
 
 * [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) config file
 * [CPM.cmake](https://github.com/cpm-cmake/CPM.cmake)
-* Niels Lohmann's [JSON for Modern C++](https://json.nlohmann.me/) - [github]](https://github.com/nlohmann/json)
+* Niels Lohmann's [JSON for Modern C++](https://json.nlohmann.me/) - [github](https://github.com/nlohmann/json)
 
 # C++ Resources
 
