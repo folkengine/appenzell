@@ -16,6 +16,7 @@
     "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
       "plugins": "dotenv emoji jump z"
     } // https://github.com/devcontainers-contrib/features/tree/main/src/zsh-plugins
+
   },
   // Configure tool-specific properties.
   "customizations": {
