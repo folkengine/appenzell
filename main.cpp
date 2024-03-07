@@ -2,7 +2,7 @@
 #include <iostream>
 #include <nlohmann/json.hpp>
 
-int main() {
+void printJson() {
   nlohmann::json json = {{"pi", 3.141},
                          {"happy", true},
                          {"name", "Niels"},
@@ -12,6 +12,15 @@ int main() {
                          {"object", {{"currency", "USD"}, {"value", 42.99}}}};
 
   std::cout << "declared JSON object: " << std::setw(2) << json << std::endl;
+}
+
+nlohmann::json readData() {
+  
+}
+
+int main() {
+  printJson();
 
   return 0;
 }
+
