@@ -25,3 +25,8 @@ Includes:
 * Microsoft
   * [Development Containers Community](https://github.com/devcontainers)  
   * [C++ Development Container Images](https://mcr.microsoft.com/en-us/product/devcontainers/cpp/tags)
+* Package Managers
+  * [build2](https://github.com/build2)
+  * [Conan](https://conan.io/)
+  * [Hunter](https://github.com/cpp-pm/hunter)
+  * [Vcpkg](https://vcpkg.io/en/)
