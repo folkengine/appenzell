@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.29 FATAL_ERROR)
 
 # create project
 project(CPMPlaybook)
@@ -9,6 +9,11 @@ add_executable(CPMPlaybook main.cpp)
 # ---- Dependencies ----
 include(cmake/CPM.cmake)
 CPMAddPackage("gh:nlohmann/json@3.11.3")
+CPMAddPackage("gh:PortAudio/portaudio@19.7.0")
+CPMAddPackage("gh:libsndfile/libsndfile#72f6af15e8f85157bd622ed45b979025828b7001")
+
+
+
 # CPMAddPackage("gh:EVerest/everest-cmake@0.1.0")
 # CPMAddPackage("gh:US-JOET/libocpp#folkengine/add_1.6_validate_and_add_profile_tests")
 

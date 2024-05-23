@@ -14,9 +14,9 @@ void printJson() {
   std::cout << "declared JSON object: " << std::setw(2) << json << std::endl;
 }
 
-nlohmann::json readData() {
+// nlohmann::json readData() {
   
-}
+// }
 
 int main() {
   printJson();
