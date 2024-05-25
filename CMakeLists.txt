@@ -1,10 +1,14 @@
 cmake_minimum_required(VERSION 3.29 FATAL_ERROR)
 
 # create project
-project(CPMPlaybook)
+project(Appenzell)
+
+set(CMAKE_CXX_STANDARD 17)  # Replace 14 with your desired C++ version
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 # ---- Executable ----
-add_executable(CPMPlaybook main.cpp)
+add_executable(Appenzell main.cpp)
 
 # ---- Dependencies ----
 include(cmake/CPM.cmake)
